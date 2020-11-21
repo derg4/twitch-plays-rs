@@ -1,0 +1,15 @@
+[package]
+name = "twitch-rs"
+version = "0.1.0"
+authors = ["Derg <derg4@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+twitch-irc = "0.2.1"
+tokio = "0.2.22"
+futures = "0.3.8"
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+enigo = "0.0.14"
